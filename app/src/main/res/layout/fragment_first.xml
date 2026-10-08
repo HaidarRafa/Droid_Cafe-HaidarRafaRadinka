@@ -51,17 +51,6 @@
        app:srcCompat="@drawable/froyo_circle"
        android:layout_marginLeft="@dimen/margin_wide" />
 
-   <ImageView
-       android:id="@+id/froyo2"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_marginStart="16dp"
-       app:layout_constraintEnd_toStartOf="@+id/froyo_description2"
-       app:layout_constraintHorizontal_bias="0.0"
-       app:layout_constraintStart_toStartOf="parent"
-       app:srcCompat="@drawable/froyo_circle"
-       tools:layout_editor_absoluteY="437dp" />
-
    <TextView
        android:id="@+id/donut_description"
        android:layout_width="0dp"
@@ -97,17 +86,5 @@
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintStart_toEndOf="@+id/froyo"
        app:layout_constraintTop_toTopOf="@+id/froyo" />
-
-   <TextView
-       android:id="@+id/froyo_description2"
-       android:layout_width="0dp"
-       android:layout_height="wrap_content"
-       android:layout_marginStart="@dimen/margin_wide"
-       android:layout_marginEnd="@dimen/margin_wide"
-       android:text="@string/froyo"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.0"
-       app:layout_constraintStart_toEndOf="@+id/froyo"
-       tools:layout_editor_absoluteY="471dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
